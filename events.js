@@ -3,7 +3,7 @@
     "https://lemeowapis.meowadvancedintelligence.com/api/public/le-destin/singles-events/list?nopaginate=1&status=upcoming";
   const LE_DESTIN_SECRET =
     "pld_2f7a9c1e6b3d4f8081ac5e9d0b6f7a3c4e2d1b8f9a0c3e5d";
-  const APP_STORE_URL = "https://apps.apple.com/my/app/le-meow/id6763483119";
+  const APP_STORE_URL = "https://apps.apple.com/sg/app/le-meow/id6763483119";
   const GOOGLE_PLAY_URL =
     "https://play.google.com/store/apps/details?id=com.meow.lemeow";
   const LE_DESTIN_FORM_URL = "https://forms.gle/tJCERFqTBprF7sJf7";
