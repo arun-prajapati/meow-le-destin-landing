@@ -4,6 +4,54 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Le Destin — Curated Connections & Experiences</title>
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png" />
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://ledestin.meowadvancedintelligence.com/#organization",
+            "name": "Le Destin",
+            "url": "https://ledestin.meowadvancedintelligence.com/",
+            "description": "Le Destin is Singapore's curated matchmaking experience—thoughtful profiles, Match Credit and memorable real-world dates.",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://ledestin.meowadvancedintelligence.com/images/icon-192.png",
+              "width": 192,
+              "height": 192
+            },
+            "image": "https://ledestin.meowadvancedintelligence.com/images/og-image.jpg",
+            "areaServed": {
+              "@type": "Country",
+              "name": "Singapore"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "SG"
+            },
+            "parentOrganization": {
+              "@type": "Organization",
+              "name": "Meow Advanced Intelligence",
+              "url": "https://meowadvancedintelligence.com/"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://ledestin.meowadvancedintelligence.com/#website",
+            "url": "https://ledestin.meowadvancedintelligence.com/",
+            "name": "Le Destin",
+            "inLanguage": "en-SG",
+            "publisher": {
+              "@id": "https://ledestin.meowadvancedintelligence.com/#organization"
+            }
+          }
+        ]
+      }
+    </script>
     <meta
       name="description"
       content="Le Destin is Singapore's curated matchmaking experience—thoughtful profiles, Match Credit and memorable real-world dates."
@@ -1663,12 +1711,14 @@
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Le Destin" />
     <meta property="og:locale" content="en_SG" />
-    <meta property="og:image" content="https://ledestin.meowadvancedintelligence.com/images/logo.png" />
+    <meta property="og:image" content="https://ledestin.meowadvancedintelligence.com/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Le Destin" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Le Destin — Curated Connections &amp; Experiences" />
     <meta name="twitter:description" content="Le Destin is Singapore's curated matchmaking experience—thoughtful profiles, Match Credit and memorable real-world dates." />
-    <meta name="twitter:image" content="https://ledestin.meowadvancedintelligence.com/images/logo.png" />
+    <meta name="twitter:image" content="https://ledestin.meowadvancedintelligence.com/images/og-image.jpg" />
     <link rel="canonical" href="https://ledestin.meowadvancedintelligence.com/" />
     <meta property="og:url" content="https://ledestin.meowadvancedintelligence.com/" />
   </head>
@@ -1725,7 +1775,7 @@
 
     <!-- Navbar -->
     <nav class="nav wrap">
-      <a class="brand" href="#top">
+      <a class="brand" href="/" aria-label="Le Destin home">
         <img class="st-logo" src="images/le-meow-logo.png" alt="Le Meow" />
       </a>
       <div class="links">
@@ -1756,7 +1806,7 @@
       <div class="wrap">
         <div class="hero-copy">
           <div class="eyebrow">Curated matchmaking · Singapore</div>
-          <h1>Meet by <em>design.</em><br />Connect by destiny.</h1>
+          <h1>Meet by <em>design.</em> <br />Connect by destiny.</h1>
           <p>
             Thoughtful introductions, real-world chemistry and beautifully
             curated experiences for people ready for something meaningful.
@@ -2621,7 +2671,7 @@
       <div class="wrap">
         <div class="foot">
           <div>
-            <a class="brand" href="#top">Le <i>Destin</i></a>
+            <a class="brand" href="/">Le <i>Destin</i></a>
             <p>Curated connections. Meaningful experiences.</p>
           </div>
           <div>
@@ -2633,16 +2683,20 @@
               ><br /><a href="#membership">Membership</a>
             </p>
           </div>
+          <nav aria-label="Meow family">
+            <div class="eyebrow">Meow family</div>
+            <p><a href="https://meowadvancedintelligence.com/">MEOWAI</a><br /><a href="https://lemeow.meowadvancedintelligence.com/">Le Meow</a><br /><a href="https://meowdevs.meowadvancedintelligence.com/">Meow Devs</a><br /><a href="https://luxury.meowadvancedintelligence.com/">Meow Luxury</a><br /><a href="https://meowaesthetics.com/">Meow Aesthetics</a><br /><a href="https://meowtampines.com/">Meow Tampines</a><br /><a href="https://meowfuturelabs.com/">Meow Future Labs</a><br /><a href="https://meowrenovations.com/">Meow Renovations</a><br /><a href="https://surehandagency.com/">SureHands Agency</a></p>
+          </nav>
           <div>
             <div class="eyebrow">Legal</div>
             <p>
               <a
-                href="https://lemeow.meowadvancedintelligence.com/privacy-policy/"
+                href="https://lemeow.meowadvancedintelligence.com/privacy-policy.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Privacy Policy</a
               ><br /><a
-                href="https://lemeow.meowadvancedintelligence.com/terms-and-conditions/"
+                href="https://lemeow.meowadvancedintelligence.com/terms-and-conditions.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 >Terms &amp; Conditions</a
